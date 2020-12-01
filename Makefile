@@ -63,14 +63,14 @@ CORE_REPOSITORY?=	unsupported/${CORE_FLAVOUR:tl}
 .endif
 
 CORE_MESSAGE?=		Carry on my wayward son
-CORE_NAME?=		opnsense-devel
+CORE_NAME?=		egli-devel
 CORE_TYPE?=		development
 
 CORE_COMMENT?=		${CORE_PRODUCT} ${CORE_TYPE} package
 CORE_MAINTAINER?=	contact@flextech.africa
 CORE_ORIGIN?=		glasgow57/${CORE_NAME}
 CORE_PACKAGESITE?=	https://pkg.opnsense.org
-CORE_PRODUCT?=		OPNsense
+CORE_PRODUCT?=		Egli
 CORE_WWW?=		https://flextech.africa/
 
 CORE_COPYRIGHT_HOLDER?=	Flextech S.A.R.L.
