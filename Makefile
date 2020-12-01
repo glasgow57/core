@@ -62,14 +62,14 @@ CORE_REPOSITORY?=	${CORE_ABI}/libressl
 CORE_REPOSITORY?=	unsupported/${CORE_FLAVOUR:tl}
 .endif
 
-CORE_MESSAGE?=		Carry on my wayward son
+CORE_MESSAGE?=		Solide comme un rock
 CORE_NAME?=		egli-devel
 CORE_TYPE?=		development
 
 CORE_COMMENT?=		${CORE_PRODUCT} ${CORE_TYPE} package
 CORE_MAINTAINER?=	contact@flextech.africa
 CORE_ORIGIN?=		glasgow57/${CORE_NAME}
-CORE_PACKAGESITE?=	https://pkg.opnsense.org
+CORE_PACKAGESITE?=	https://egli-pkg.flextech.africa
 CORE_PRODUCT?=		Egli
 CORE_WWW?=		https://flextech.africa/
 
