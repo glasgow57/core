@@ -63,7 +63,7 @@ CORE_REPOSITORY?=	unsupported/${CORE_FLAVOUR:tl}
 .endif
 
 CORE_MESSAGE?=		Solide comme un rock
-CORE_NAME?=		egli-devel
+CORE_NAME?=		egli
 CORE_TYPE?=		development
 
 CORE_COMMENT?=		${CORE_PRODUCT} ${CORE_TYPE} package
