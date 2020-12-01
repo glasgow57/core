@@ -67,15 +67,15 @@ CORE_NAME?=		opnsense-devel
 CORE_TYPE?=		development
 
 CORE_COMMENT?=		${CORE_PRODUCT} ${CORE_TYPE} package
-CORE_MAINTAINER?=	project@opnsense.org
-CORE_ORIGIN?=		opnsense/${CORE_NAME}
+CORE_MAINTAINER?=	contact@flextech.africa
+CORE_ORIGIN?=		glasgow57/${CORE_NAME}
 CORE_PACKAGESITE?=	https://pkg.opnsense.org
 CORE_PRODUCT?=		OPNsense
-CORE_WWW?=		https://opnsense.org/
+CORE_WWW?=		https://flextech.africa/
 
-CORE_COPYRIGHT_HOLDER?=	Deciso B.V.
-CORE_COPYRIGHT_WWW?=	https://www.deciso.com/
-CORE_COPYRIGHT_YEARS?=	2014-2020
+CORE_COPYRIGHT_HOLDER?=	Flextech S.A.R.L.
+CORE_COPYRIGHT_WWW?=	https://flextech.africa/
+CORE_COPYRIGHT_YEARS?=	2020
 
 CORE_DEPENDS_amd64?=	beep \
 			bsdinstaller \
