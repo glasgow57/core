@@ -28,12 +28,12 @@ all:
 
 .include "Mk/defaults.mk"
 
-CORE_ABI?=	20.7
+CORE_ABI?=	21.1.r1
 CORE_PHP?=	72
 CORE_PYTHON?=	37
 
 .if exists(${GIT}) && exists(${GITVERSION})
-. if ${CORE_ABI} == "20.7"
+. if ${CORE_ABI} == "21.1.r1"
 CORE_COMMIT!=	${GITVERSION} --exclude=21.1.r\*
 . else
 CORE_COMMIT!=	${GITVERSION}
@@ -63,19 +63,19 @@ CORE_REPOSITORY?=	unsupported/${CORE_FLAVOUR:tl}
 .endif
 
 CORE_MESSAGE?=		Solide comme un rock
-CORE_NAME?=		egli
+CORE_NAME?=		egli-fw
 CORE_TYPE?=		development
 
 CORE_COMMENT?=		${CORE_PRODUCT} ${CORE_TYPE} package
 CORE_MAINTAINER?=	contact@flextech.africa
 CORE_ORIGIN?=		glasgow57/${CORE_NAME}
-CORE_PACKAGESITE?=	https://egli-pkg.flextech.africa
-CORE_PRODUCT?=		Egli
-CORE_WWW?=		https://flextech.africa/
+CORE_PACKAGESITE?=	http://192.168.1.191
+CORE_PRODUCT?=		Egli-FW
+CORE_WWW?=		https://flextech.africa/egli
 
 CORE_COPYRIGHT_HOLDER?=	Flextech S.A.R.L.
 CORE_COPYRIGHT_WWW?=	https://flextech.africa/
-CORE_COPYRIGHT_YEARS?=	2020
+CORE_COPYRIGHT_YEARS?=	2021
 
 CORE_DEPENDS_amd64?=	beep \
 			bsdinstaller \
